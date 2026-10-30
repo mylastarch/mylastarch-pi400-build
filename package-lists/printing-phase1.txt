@@ -1,0 +1,10 @@
+avahi
+cups
+cups-browsed
+ghostscript
+gutenprint
+ipp-usb
+nss-mdns
+print-manager
+system-config-printer
+

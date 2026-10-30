@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=XScreenSaver
+Exec=/usr/local/bin/mylastarch-xscreensaver-start
+TryExec=xscreensaver
+OnlyShowIn=KDE;
+StartupNotify=false
+X-KDE-StartupNotify=false

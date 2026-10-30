@@ -1,0 +1,4 @@
+# Safe remaining packages from the original profile.
+grml-zsh-config
+libusb-compat
+wvdial

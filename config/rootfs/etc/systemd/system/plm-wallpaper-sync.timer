@@ -1,0 +1,11 @@
+[Unit]
+Description=Periodically update Plasma Login Manager wallpaper from Variety
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+AccuracySec=15s
+Unit=plm-wallpaper-sync.service
+
+[Install]
+WantedBy=timers.target

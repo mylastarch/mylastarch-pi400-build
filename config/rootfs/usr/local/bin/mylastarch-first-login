@@ -1,0 +1,82 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+marker="$HOME/.config/mylastarch-first-login-complete"
+timezone_marker="$HOME/.config/mylastarch-timezone-setup-shown"
+[[ -e "$marker" ]] && exit 0
+
+mkdir -p "$HOME/.config"
+kwriteconfig6 --file kdeglobals --group Icons --key Theme Papirus
+kwriteconfig6 --file kdeglobals --group General --key AccentColor '80,160,113'
+kwriteconfig6 --file kdeglobals --group General --key accentColorFromWallpaper true
+kwriteconfig6 --file kdeglobals --group General --key font \
+    'Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1'
+kwriteconfig6 --file kdeglobals --group General --key menuFont \
+    'Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1'
+kwriteconfig6 --file kdeglobals --group KDE --key ShowDeleteCommand true
+kwriteconfig6 --file kdeglobals --group 'KFileDialog Settings' --key 'Show hidden files' true
+kwriteconfig6 --file kdeglobals --group 'KFileDialog Settings' --key 'Sort directories first' true
+kwriteconfig6 --file kcminputrc --group Keyboard --key NumLock 1
+kwriteconfig6 --file kcminputrc --group Mouse --key cursorTheme Vimix-cursors
+kwriteconfig6 --file kcminputrc --group Mouse --key cursorSize 24
+kwriteconfig6 --file kwinrc --group org.kde.kdecoration2 --key ButtonsOnLeft XIA
+kwriteconfig6 --file kwinrc --group org.kde.kdecoration2 --key ButtonsOnRight ''
+kwriteconfig6 --file kwinrc --group org.kde.kdecoration2 --key library org.kde.kwin.aurorae
+kwriteconfig6 --file kwinrc --group org.kde.kdecoration2 --key theme __aurorae__svg__MacSequoia-Dark
+kwriteconfig6 --file powerdevilrc --group AC --group Display --key DimDisplayIdleTimeoutSec -- -1
+kwriteconfig6 --file powerdevilrc --group AC --group Display --key DimDisplayWhenIdle false
+kwriteconfig6 --file powerdevilrc --group AC --group Display --key TurnOffDisplayIdleTimeoutSec -- -1
+kwriteconfig6 --file powerdevilrc --group AC --group Display --key TurnOffDisplayWhenIdle false
+kwriteconfig6 --file powerdevilrc --group AC --group SuspendAndShutdown --key AutoSuspendAction 0
+kwriteconfig6 --file kscreenlockerrc --group Daemon --key Autolock false
+kwriteconfig6 --file kscreenlockerrc --group Daemon --key LockOnResume false
+kwriteconfig6 --file kscreenlockerrc --group Daemon --key Timeout 0
+
+# Sublime Text's GTK menu does not reliably export to Plasma's global-menu
+# widget.  Blacklist only Sublime so it keeps its own visible menu bar while
+# the global menu remains available to applications that support it.
+if gsettings list-schemas 2>/dev/null | grep -qx 'org.appmenu.gtk-module'; then
+    appmenu_blacklist="$(gsettings get org.appmenu.gtk-module blacklist 2>/dev/null || printf '@as []')"
+    if [[ "$appmenu_blacklist" != *"'sublime_text'"* ]]; then
+        if [[ "$appmenu_blacklist" == '@as []' || "$appmenu_blacklist" == '[]' ]]; then
+            appmenu_blacklist="['sublime_text']"
+        else
+            appmenu_blacklist="${appmenu_blacklist%]}"
+            appmenu_blacklist="${appmenu_blacklist}, 'sublime_text']"
+        fi
+        gsettings set org.appmenu.gtk-module blacklist "$appmenu_blacklist"
+    fi
+fi
+
+panel_script=/usr/local/share/mylastarch/plasma-panel-mylastarch.js
+for _attempt in {1..30}; do
+    if qdbus6 org.kde.plasmashell /PlasmaShell \
+        org.kde.PlasmaShell.evaluateScript "$(< "$panel_script")" >/dev/null 2>&1; then
+        if [[ ! -e "$timezone_marker" ]] && command -v kcmshell6 >/dev/null; then
+            # The image cannot reliably infer its physical location. Open the
+            # standard Plasma page once so the owner can select a timezone;
+            # applying a change uses Plasma's normal Polkit authentication.
+            (
+                sleep 3
+                kcmshell6 kcm_clock
+            ) >/dev/null 2>&1 &
+            touch "$timezone_marker"
+        fi
+        if command -v arch-update >/dev/null; then
+            arch-update --tray --enable
+            arch-update --check --enable
+        fi
+        if command -v mylastarch-welcome >/dev/null; then
+            (
+                sleep 2
+                mylastarch-welcome
+            ) >/dev/null 2>&1 &
+        fi
+        touch "$marker"
+        exit 0
+    fi
+    sleep 1
+done
+
+printf 'Plasma panel was not ready; setup will retry at the next login.\n' >&2
+exit 1

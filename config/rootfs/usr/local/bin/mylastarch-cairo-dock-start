@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+config="$HOME/.config/cairo-dock/current_theme/cairo-dock.conf"
+switcher="$HOME/.config/cairo-dock/current_theme/plug-ins/switcher/switcher.conf"
+
+# The image ships a completed Cairo profile. If a user deliberately removes
+# it, let Cairo create a new profile normally; do not start a temporary process
+# and then a second process, which produced two visible docks on first login.
+if [[ ! -f "$config" ]]; then
+    exec /usr/bin/cairo-dock
+fi
+if [[ -f "$config" ]]; then
+    sed -i -E '/^modules=/ s/(^|;)switcher(;|$)/\1/' "$config"
+    # Reserve the bottom screen edge so maximized application windows stop
+    # above the dock instead of opening underneath it.
+    sed -i 's/^visibility=.*/visibility=1/' "$config"
+fi
+if [[ -f "$switcher" ]]; then
+    sed -i \
+        's/^initially detached=.*/initially detached=false/; s/^accessibility=.*/accessibility=0/' \
+        "$switcher"
+fi
+
+exec /usr/bin/cairo-dock

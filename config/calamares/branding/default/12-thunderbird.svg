@@ -1,0 +1,57 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#1D9E75"/>
+  <rect x="0" y="0" width="6" height="382" fill="#1D9E75"/>
+  <!-- Thunderbird icon approximation: envelope with bird wing motif -->
+  <g transform="translate(52,28)">
+    <circle cx="33" cy="33" r="33" fill="#0A84FF"/>
+    <!-- Envelope shape -->
+    <rect x="12" y="19" width="42" height="28" rx="3" fill="white" opacity="0.95"/>
+    <polyline points="12,19 33,35 54,19" fill="none" stroke="#0A84FF" stroke-width="2.5" stroke-linejoin="round"/>
+  </g>
+  <rect x="104" y="28" width="160" height="24" rx="12" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="184" y="45" font-family="sans-serif" font-size="12" fill="#185FA5" text-anchor="middle">Email Client</text>
+  <text x="126" y="82" font-family="sans-serif" font-size="36" font-weight="700" fill="#0F6E56" letter-spacing="-1">Thunderbird</text>
+  <text x="52" y="110" font-family="sans-serif" font-size="14" fill="#888780">A free, open-source email client that puts you in control of your inbox.</text>
+  <line x1="52" y1="126" x2="628" y2="126" stroke="#D3D1C7" stroke-width="0.75"/>
+  <!-- Feature cards row 1 -->
+  <rect x="52" y="142" width="136" height="88" rx="8" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="70" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#0D3C6E">Multiple Accounts</text>
+  <text x="70" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">Manage all your</text>
+  <text x="70" y="200" font-family="sans-serif" font-size="11" fill="#185FA5">email accounts</text>
+  <text x="70" y="216" font-family="sans-serif" font-size="11" fill="#185FA5">in one place.</text>
+  <rect x="200" y="142" width="136" height="88" rx="8" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="218" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#0D3C6E">Spam Filters</text>
+  <text x="218" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">Adaptive junk mail</text>
+  <text x="218" y="200" font-family="sans-serif" font-size="11" fill="#185FA5">controls keep your</text>
+  <text x="218" y="216" font-family="sans-serif" font-size="11" fill="#185FA5">inbox clean.</text>
+  <rect x="348" y="142" width="136" height="88" rx="8" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="366" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#0D3C6E">Calendar</text>
+  <text x="366" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">Built-in calendar</text>
+  <text x="366" y="200" font-family="sans-serif" font-size="11" fill="#185FA5">and task manager</text>
+  <text x="366" y="216" font-family="sans-serif" font-size="11" fill="#185FA5">with CalDAV support.</text>
+  <rect x="496" y="142" width="132" height="88" rx="8" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="514" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#0D3C6E">Encryption</text>
+  <text x="514" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">OpenPGP and</text>
+  <text x="514" y="200" font-family="sans-serif" font-size="11" fill="#185FA5">S/MIME support</text>
+  <text x="514" y="216" font-family="sans-serif" font-size="11" fill="#185FA5">built right in.</text>
+  <!-- Feature cards row 2 -->
+  <rect x="52" y="242" width="136" height="76" rx="8" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="70" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#0D3C6E">Add-ons</text>
+  <text x="70" y="284" font-family="sans-serif" font-size="11" fill="#185FA5">Extend with themes</text>
+  <text x="70" y="300" font-family="sans-serif" font-size="11" fill="#185FA5">and extensions.</text>
+  <rect x="200" y="242" width="136" height="76" rx="8" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="218" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#0D3C6E">IMAP &amp; POP3</text>
+  <text x="218" y="284" font-family="sans-serif" font-size="11" fill="#185FA5">Works with Gmail,</text>
+  <text x="218" y="300" font-family="sans-serif" font-size="11" fill="#185FA5">Outlook and more.</text>
+  <rect x="348" y="242" width="136" height="76" rx="8" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="366" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#0D3C6E">RSS Reader</text>
+  <text x="366" y="284" font-family="sans-serif" font-size="11" fill="#185FA5">Follow your favourite</text>
+  <text x="366" y="300" font-family="sans-serif" font-size="11" fill="#185FA5">news feeds and blogs.</text>
+  <rect x="496" y="242" width="132" height="76" rx="8" fill="#E3EFFD" stroke="#7AB8F5" stroke-width="0.75"/>
+  <text x="514" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#0D3C6E">Open Source</text>
+  <text x="514" y="284" font-family="sans-serif" font-size="11" fill="#185FA5">Free forever, no</text>
+  <text x="514" y="300" font-family="sans-serif" font-size="11" fill="#185FA5">subscriptions needed.</text>
+  <rect x="0" y="366" width="680" height="16" fill="#1D9E75" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#0F6E56" text-anchor="middle" letter-spacing="1">MYLASTARCH 1.0.0  ·  EMAIL CLIENT</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#FF9800"/>
+  <rect x="0" y="0" width="6" height="382" fill="#FF9800"/>
+  <g transform="translate(52,28)">
+    <rect x="0" y="0" width="66" height="66" rx="10" fill="#FF9800"/>
+    <line x1="14" y1="18" x2="52" y2="18" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <line x1="20" y1="30" x2="52" y2="30" stroke="white" stroke-width="6" stroke-linecap="round"/>
+    <line x1="14" y1="42" x2="46" y2="42" stroke="white" stroke-width="6" stroke-linecap="round"/>
+  </g>
+  <rect x="134" y="28" width="130" height="24" rx="12" fill="#EAF3DE" stroke="#97C459" stroke-width="0.75"/>
+  <text x="199" y="45" font-family="sans-serif" font-size="12" fill="#3B6D11" text-anchor="middle">Text Editor</text>
+  <text x="134" y="82" font-family="sans-serif" font-size="36" font-weight="700" fill="#854F0B" letter-spacing="-1">Sublime Text</text>
+  <text x="52" y="110" font-family="sans-serif" font-size="14" fill="#888780">A sophisticated text editor for code, markup, and prose.</text>
+  <line x1="52" y1="126" x2="628" y2="126" stroke="#D3D1C7" stroke-width="0.75"/>
+  <rect x="52" y="142" width="136" height="88" rx="8" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.75"/>
+  <text x="70" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#633806">Command Palette</text>
+  <text x="70" y="184" font-family="sans-serif" font-size="11" fill="#854F0B">Access any feature</text>
+  <text x="70" y="200" font-family="sans-serif" font-size="11" fill="#854F0B">instantly with</text>
+  <text x="70" y="216" font-family="sans-serif" font-size="11" fill="#854F0B">Ctrl+Shift+P.</text>
+  <rect x="200" y="142" width="136" height="88" rx="8" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.75"/>
+  <text x="218" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#633806">Multi-Selection</text>
+  <text x="218" y="184" font-family="sans-serif" font-size="11" fill="#854F0B">Edit multiple lines</text>
+  <text x="218" y="200" font-family="sans-serif" font-size="11" fill="#854F0B">at once. Rename</text>
+  <text x="218" y="216" font-family="sans-serif" font-size="11" fill="#854F0B">variables instantly.</text>
+  <rect x="348" y="142" width="136" height="88" rx="8" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.75"/>
+  <text x="366" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#633806">Goto Anything</text>
+  <text x="366" y="184" font-family="sans-serif" font-size="11" fill="#854F0B">Jump to any file,</text>
+  <text x="366" y="200" font-family="sans-serif" font-size="11" fill="#854F0B">line, or symbol</text>
+  <text x="366" y="216" font-family="sans-serif" font-size="11" fill="#854F0B">in your project.</text>
+  <rect x="496" y="142" width="132" height="88" rx="8" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.75"/>
+  <text x="514" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#633806">Split Editing</text>
+  <text x="514" y="184" font-family="sans-serif" font-size="11" fill="#854F0B">View and edit files</text>
+  <text x="514" y="200" font-family="sans-serif" font-size="11" fill="#854F0B">side by side in</text>
+  <text x="514" y="216" font-family="sans-serif" font-size="11" fill="#854F0B">any layout.</text>
+  <rect x="52" y="242" width="136" height="76" rx="8" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.75"/>
+  <text x="70" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#633806">Package Control</text>
+  <text x="70" y="284" font-family="sans-serif" font-size="11" fill="#854F0B">Thousands of plugins</text>
+  <text x="70" y="300" font-family="sans-serif" font-size="11" fill="#854F0B">and themes available.</text>
+  <rect x="200" y="242" width="136" height="76" rx="8" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.75"/>
+  <text x="218" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#633806">Syntax Highlight</text>
+  <text x="218" y="284" font-family="sans-serif" font-size="11" fill="#854F0B">Support for dozens</text>
+  <text x="218" y="300" font-family="sans-serif" font-size="11" fill="#854F0B">of languages.</text>
+  <rect x="348" y="242" width="136" height="76" rx="8" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.75"/>
+  <text x="366" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#633806">Distraction Free</text>
+  <text x="366" y="284" font-family="sans-serif" font-size="11" fill="#854F0B">Full-screen writing</text>
+  <text x="366" y="300" font-family="sans-serif" font-size="11" fill="#854F0B">mode built in.</text>
+  <rect x="496" y="242" width="132" height="76" rx="8" fill="#FFF3E0" stroke="#FFE0B2" stroke-width="0.75"/>
+  <text x="514" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#633806">Lightning Fast</text>
+  <text x="514" y="284" font-family="sans-serif" font-size="11" fill="#854F0B">Opens large files</text>
+  <text x="514" y="300" font-family="sans-serif" font-size="11" fill="#854F0B">instantly.</text>
+  <rect x="0" y="366" width="680" height="16" fill="#FF9800" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#854F0B" text-anchor="middle" letter-spacing="1">MYLASTARCH 1.0.0  ·  INCLUDED SOFTWARE</text>
+</svg>

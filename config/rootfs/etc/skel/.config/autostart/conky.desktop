@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Conky
+Comment=Display Raspberry Pi system information on the desktop
+Exec=/usr/local/bin/mylastarch-conky-start
+TryExec=conky
+Icon=conky-logomark-violet
+OnlyShowIn=KDE;
+StartupNotify=false
+Terminal=false
+X-KDE-autostart-after=panel

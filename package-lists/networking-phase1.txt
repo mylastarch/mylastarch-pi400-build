@@ -1,0 +1,26 @@
+# Network diagnostics and lightweight services.
+bind
+darkhttpd
+dnsmasq
+firewalld
+irssi
+ldns
+lynx
+ndisc6
+
+# Remote networks and storage.
+open-iscsi
+openconnect
+openvpn
+ppp
+pptpclient
+vpnc
+xl2tpd
+
+# Mobile broadband and attached-device support.
+modemmanager
+usb_modeswitch
+usbmuxd
+
+# dhcpcd, wpa_supplicant, and systemd-resolvconf are intentionally excluded.
+# The Pi image already uses systemd-networkd, iwd, and systemd-resolved.

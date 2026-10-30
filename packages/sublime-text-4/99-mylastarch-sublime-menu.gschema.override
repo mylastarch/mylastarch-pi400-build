@@ -1,0 +1,2 @@
+[org.appmenu.gtk-module]
+blacklist=['sublime_text']

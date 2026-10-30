@@ -1,0 +1,10 @@
+# Minimal userspace for the first Pi 400 boot milestone.
+base
+base-devel
+bash-completion
+git
+openssh
+rsync
+sudo
+vim
+which

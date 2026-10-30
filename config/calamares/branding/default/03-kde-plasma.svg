@@ -1,0 +1,54 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#1D9E75"/>
+  <rect x="0" y="0" width="6" height="382" fill="#1D9E75"/>
+  <g transform="translate(52,28)">
+    <circle cx="33" cy="33" r="33" fill="#3DAEE9"/>
+    <line x1="20" y1="14" x2="20" y2="52" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <line x1="20" y1="33" x2="44" y2="14" stroke="white" stroke-width="5" stroke-linecap="round"/>
+    <line x1="20" y1="33" x2="44" y2="52" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <rect x="104" y="28" width="200" height="24" rx="12" fill="#E1F5EE" stroke="#5DCAA5" stroke-width="0.75"/>
+  <text x="204" y="45" font-family="sans-serif" font-size="12" fill="#0F6E56" text-anchor="middle">Desktop Environment</text>
+  <text x="104" y="82" font-family="sans-serif" font-size="36" font-weight="700" fill="#0F6E56" letter-spacing="-1">KDE Plasma 6</text>
+  <text x="52" y="110" font-family="sans-serif" font-size="14" fill="#888780">A modern, beautiful, and fully customisable desktop for everyone.</text>
+  <line x1="52" y1="126" x2="628" y2="126" stroke="#D3D1C7" stroke-width="0.75"/>
+  <rect x="52" y="142" width="136" height="88" rx="8" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.75"/>
+  <text x="70" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#085041">Wayland Native</text>
+  <text x="70" y="184" font-family="sans-serif" font-size="11" fill="#0F6E56">Modern display server.</text>
+  <text x="70" y="200" font-family="sans-serif" font-size="11" fill="#0F6E56">Better performance</text>
+  <text x="70" y="216" font-family="sans-serif" font-size="11" fill="#0F6E56">and security.</text>
+  <rect x="200" y="142" width="136" height="88" rx="8" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.75"/>
+  <text x="218" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#085041">Customisation</text>
+  <text x="218" y="184" font-family="sans-serif" font-size="11" fill="#0F6E56">Themes, widgets,</text>
+  <text x="218" y="200" font-family="sans-serif" font-size="11" fill="#0F6E56">panels and layouts</text>
+  <text x="218" y="216" font-family="sans-serif" font-size="11" fill="#0F6E56">fully adjustable.</text>
+  <rect x="348" y="142" width="136" height="88" rx="8" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.75"/>
+  <text x="366" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#085041">KDE Connect</text>
+  <text x="366" y="184" font-family="sans-serif" font-size="11" fill="#0F6E56">Link your phone to</text>
+  <text x="366" y="200" font-family="sans-serif" font-size="11" fill="#0F6E56">your desktop. Share</text>
+  <text x="366" y="216" font-family="sans-serif" font-size="11" fill="#0F6E56">files and clipboard.</text>
+  <rect x="496" y="142" width="132" height="88" rx="8" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.75"/>
+  <text x="514" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#085041">Activities</text>
+  <text x="514" y="184" font-family="sans-serif" font-size="11" fill="#0F6E56">Separate workspaces</text>
+  <text x="514" y="200" font-family="sans-serif" font-size="11" fill="#0F6E56">for work, home,</text>
+  <text x="514" y="216" font-family="sans-serif" font-size="11" fill="#0F6E56">and projects.</text>
+  <rect x="52" y="242" width="136" height="76" rx="8" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.75"/>
+  <text x="70" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#085041">Discover Store</text>
+  <text x="70" y="284" font-family="sans-serif" font-size="11" fill="#0F6E56">Install software with</text>
+  <text x="70" y="300" font-family="sans-serif" font-size="11" fill="#0F6E56">a graphical app store.</text>
+  <rect x="200" y="242" width="136" height="76" rx="8" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.75"/>
+  <text x="218" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#085041">Virtual Desktops</text>
+  <text x="218" y="284" font-family="sans-serif" font-size="11" fill="#0F6E56">Organise open apps</text>
+  <text x="218" y="300" font-family="sans-serif" font-size="11" fill="#0F6E56">across desktops.</text>
+  <rect x="348" y="242" width="136" height="76" rx="8" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.75"/>
+  <text x="366" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#085041">System Settings</text>
+  <text x="366" y="284" font-family="sans-serif" font-size="11" fill="#0F6E56">One place for all</text>
+  <text x="366" y="300" font-family="sans-serif" font-size="11" fill="#0F6E56">desktop preferences.</text>
+  <rect x="496" y="242" width="132" height="76" rx="8" fill="#E1F5EE" stroke="#9FE1CB" stroke-width="0.75"/>
+  <text x="514" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#085041">Krunner</text>
+  <text x="514" y="284" font-family="sans-serif" font-size="11" fill="#0F6E56">Launch apps, search</text>
+  <text x="514" y="300" font-family="sans-serif" font-size="11" fill="#0F6E56">files, run commands.</text>
+  <rect x="0" y="366" width="680" height="16" fill="#1D9E75" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#0F6E56" text-anchor="middle" letter-spacing="1">MYLASTARCH 1.0.0  ·  DESKTOP ENVIRONMENT</text>
+</svg>

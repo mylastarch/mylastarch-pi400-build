@@ -1,0 +1,3 @@
+# MyLastArch Raspberry Pi — Arch Linux ARM recommended mirror redirect
+# GeoIP directs requests to a nearby official, push-synchronized mirror.
+Server = http://mirror.archlinuxarm.org/$arch/$repo

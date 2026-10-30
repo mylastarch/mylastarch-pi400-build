@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=MyLastArch First Login Setup
+Exec=/usr/local/bin/mylastarch-first-login
+TryExec=/usr/local/bin/mylastarch-first-login
+OnlyShowIn=KDE;
+StartupNotify=false
+X-KDE-autostart-after=panel

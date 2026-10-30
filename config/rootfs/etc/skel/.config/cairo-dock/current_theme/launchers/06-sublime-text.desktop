@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Sublime Text
+Icon=sublime-text
+Exec=/usr/bin/subl %F
+Container=_MainDock_
+Order=6
+StartupWMClass=subl

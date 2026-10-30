@@ -1,0 +1,9 @@
+# Packages confirmed on the reference system or needed by final integrations.
+cifs-utils
+iw
+iwd
+kio-fuse
+networkmanager
+plasma-nm
+variety
+wireless-regdb

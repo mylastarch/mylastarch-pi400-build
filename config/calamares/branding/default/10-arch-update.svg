@@ -1,0 +1,74 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#1793D1"/>
+  <rect x="0" y="0" width="6" height="382" fill="#1793D1"/>
+
+  <!-- arch-update logo: Arch chevron with circular update arrow -->
+  <g transform="translate(52,28)">
+    <!-- Circle background -->
+    <circle cx="33" cy="33" r="33" fill="#1793D1"/>
+    <!-- Arch mark in white -->
+    <path d="M33 8 L16 40 L20 40 L33 18 L46 40 L50 40 Z" fill="white"/>
+    <path d="M33 22 L24 40 L33 36 L42 40 Z" fill="#1793D1"/>
+    <!-- Circular update arrows at bottom -->
+    <path d="M18 46 A16 16 0 0 0 48 46" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <polygon points="48,40 48,52 54,46" fill="white"/>
+  </g>
+
+  <rect x="134" y="28" width="158" height="24" rx="12" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.75"/>
+  <text x="213" y="45" font-family="sans-serif" font-size="12" fill="#185FA5" text-anchor="middle">Update Notifier</text>
+
+  <text x="134" y="82" font-family="sans-serif" font-size="36" font-weight="700" fill="#0C6A9E" letter-spacing="-1">Arch-Update</text>
+  <text x="52" y="110" font-family="sans-serif" font-size="14" fill="#888780">Interactive update notifier and applier with a KDE systray applet.</text>
+
+  <line x1="52" y1="126" x2="628" y2="126" stroke="#D3D1C7" stroke-width="0.75"/>
+
+  <!-- Row 1 -->
+  <rect x="52" y="142" width="136" height="88" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="70" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Systray Applet</text>
+  <text x="70" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">Dynamic icon shows</text>
+  <text x="70" y="200" font-family="sans-serif" font-size="11" fill="#185FA5">update status. Click</text>
+  <text x="70" y="216" font-family="sans-serif" font-size="11" fill="#185FA5">to run updates.</text>
+
+  <rect x="200" y="142" width="136" height="88" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="218" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Arch News Check</text>
+  <text x="218" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">Reads latest Arch</text>
+  <text x="218" y="200" font-family="sans-serif" font-size="11" fill="#185FA5">Linux news before</text>
+  <text x="218" y="216" font-family="sans-serif" font-size="11" fill="#185FA5">each update.</text>
+
+  <rect x="348" y="142" width="136" height="88" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="366" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Orphan Cleanup</text>
+  <text x="366" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">Detects and offers</text>
+  <text x="366" y="200" font-family="sans-serif" font-size="11" fill="#185FA5">to remove orphaned</text>
+  <text x="366" y="216" font-family="sans-serif" font-size="11" fill="#185FA5">packages.</text>
+
+  <rect x="496" y="142" width="132" height="88" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="514" y="166" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Cache Cleaner</text>
+  <text x="514" y="184" font-family="sans-serif" font-size="11" fill="#185FA5">Removes old and</text>
+  <text x="514" y="200" font-family="sans-serif" font-size="11" fill="#185FA5">uninstalled packages</text>
+  <text x="514" y="216" font-family="sans-serif" font-size="11" fill="#185FA5">from cache.</text>
+
+  <!-- Row 2 -->
+  <rect x="52" y="242" width="136" height="76" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="70" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Kernel Reboot</text>
+  <text x="70" y="284" font-family="sans-serif" font-size="11" fill="#185FA5">Alerts when a kernel</text>
+  <text x="70" y="300" font-family="sans-serif" font-size="11" fill="#185FA5">update needs reboot.</text>
+
+  <rect x="200" y="242" width="136" height="76" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="218" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Pacnew Files</text>
+  <text x="218" y="284" font-family="sans-serif" font-size="11" fill="#185FA5">Detects and helps</text>
+  <text x="218" y="300" font-family="sans-serif" font-size="11" fill="#185FA5">process .pacnew files.</text>
+
+  <rect x="348" y="242" width="136" height="76" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="366" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Service Restart</text>
+  <text x="366" y="284" font-family="sans-serif" font-size="11" fill="#185FA5">Identifies services</text>
+  <text x="366" y="300" font-family="sans-serif" font-size="11" fill="#185FA5">that need restarting.</text>
+
+  <rect x="496" y="242" width="132" height="76" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="514" y="266" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Auto Timer</text>
+  <text x="514" y="284" font-family="sans-serif" font-size="11" fill="#185FA5">Checks for updates</text>
+  <text x="514" y="300" font-family="sans-serif" font-size="11" fill="#185FA5">hourly via systemd.</text>
+
+  <rect x="0" y="366" width="680" height="16" fill="#1793D1" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#185FA5" text-anchor="middle" letter-spacing="1">MYLASTARCH 1.0.0  ·  INCLUDED SOFTWARE</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#C33C32"/>
+  <rect x="0" y="0" width="6" height="382" fill="#C33C32"/>
+  <!-- PDF document icon -->
+  <g transform="translate(52,24)">
+    <path d="M8 0h38l18 18v50H8z" fill="#C33C32"/>
+    <path d="M46 0v18h18" fill="#F4B7B2"/>
+    <rect x="17" y="34" width="38" height="20" rx="3" fill="white"/>
+    <text x="36" y="48" font-family="sans-serif" font-size="12" font-weight="700" fill="#A32D26" text-anchor="middle">PDF</text>
+  </g>
+  <rect x="132" y="28" width="130" height="24" rx="12" fill="#FCEBEB" stroke="#E59A94" stroke-width="0.75"/>
+  <text x="197" y="45" font-family="sans-serif" font-size="12" fill="#A32D26" text-anchor="middle">PDF Editor</text>
+  <text x="132" y="82" font-family="sans-serif" font-size="32" font-weight="700" fill="#A32D26" letter-spacing="-1">Master PDF Editor</text>
+  <text x="52" y="110" font-family="sans-serif" font-size="14" fill="#888780">View, edit, annotate, and organize PDF documents from one application.</text>
+  <line x1="52" y1="126" x2="628" y2="126" stroke="#D3D1C7" stroke-width="0.75"/>
+
+  <rect x="52" y="142" width="178" height="82" rx="8" fill="#FCEBEB" stroke="#E59A94" stroke-width="0.75"/>
+  <text x="72" y="166" font-family="sans-serif" font-size="14" font-weight="500" fill="#7A211B">Edit Documents</text>
+  <text x="72" y="185" font-family="sans-serif" font-size="11" fill="#A32D26">Work with text, images,</text>
+  <text x="72" y="201" font-family="sans-serif" font-size="11" fill="#A32D26">and other PDF content.</text>
+
+  <rect x="244" y="142" width="178" height="82" rx="8" fill="#FCEBEB" stroke="#E59A94" stroke-width="0.75"/>
+  <text x="264" y="166" font-family="sans-serif" font-size="14" font-weight="500" fill="#7A211B">Annotate</text>
+  <text x="264" y="185" font-family="sans-serif" font-size="11" fill="#A32D26">Add notes, highlights,</text>
+  <text x="264" y="201" font-family="sans-serif" font-size="11" fill="#A32D26">stamps, and drawings.</text>
+
+  <rect x="436" y="142" width="192" height="82" rx="8" fill="#FCEBEB" stroke="#E59A94" stroke-width="0.75"/>
+  <text x="456" y="166" font-family="sans-serif" font-size="14" font-weight="500" fill="#7A211B">Fill Forms</text>
+  <text x="456" y="185" font-family="sans-serif" font-size="11" fill="#A32D26">Complete and save</text>
+  <text x="456" y="201" font-family="sans-serif" font-size="11" fill="#A32D26">interactive PDF forms.</text>
+
+  <rect x="52" y="238" width="178" height="82" rx="8" fill="#FCEBEB" stroke="#E59A94" stroke-width="0.75"/>
+  <text x="72" y="262" font-family="sans-serif" font-size="14" font-weight="500" fill="#7A211B">Manage Pages</text>
+  <text x="72" y="281" font-family="sans-serif" font-size="11" fill="#A32D26">Insert, remove, rotate,</text>
+  <text x="72" y="297" font-family="sans-serif" font-size="11" fill="#A32D26">and rearrange pages.</text>
+
+  <rect x="244" y="238" width="178" height="82" rx="8" fill="#FCEBEB" stroke="#E59A94" stroke-width="0.75"/>
+  <text x="264" y="262" font-family="sans-serif" font-size="14" font-weight="500" fill="#7A211B">Page-Width View</text>
+  <text x="264" y="281" font-family="sans-serif" font-size="11" fill="#A32D26">Open PDFs fitted to the</text>
+  <text x="264" y="297" font-family="sans-serif" font-size="11" fill="#A32D26">available window width.</text>
+
+  <rect x="436" y="238" width="192" height="82" rx="8" fill="#FCEBEB" stroke="#E59A94" stroke-width="0.75"/>
+  <text x="456" y="262" font-family="sans-serif" font-size="14" font-weight="500" fill="#7A211B">Export &amp; Print</text>
+  <text x="456" y="281" font-family="sans-serif" font-size="11" fill="#A32D26">Save your changes and</text>
+  <text x="456" y="297" font-family="sans-serif" font-size="11" fill="#A32D26">prepare documents to print.</text>
+
+  <rect x="0" y="366" width="680" height="16" fill="#C33C32" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#A32D26" text-anchor="middle" letter-spacing="1">MYLASTARCH 1.0.0  ·  PDF EDITOR</text>
+</svg>

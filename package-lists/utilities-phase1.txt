@@ -1,0 +1,32 @@
+# Shell and terminal utilities
+bash-completion
+man-db
+man-pages
+mc
+screen
+tmux
+zsh
+
+# Filesystems and storage
+btrfs-progs
+dosfstools
+exfatprogs
+f2fs-tools
+gptfdisk
+jfsutils
+lsscsi
+lvm2
+nfs-utils
+ntfs-3g
+smartmontools
+testdisk
+xfsprogs
+
+# Hardware and network diagnostics
+ethtool
+mmc-utils
+nmap
+rsync
+tcpdump
+usbutils
+

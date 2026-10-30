@@ -1,0 +1,3 @@
+conky
+perl-lwp-protocol-https
+xscreensaver

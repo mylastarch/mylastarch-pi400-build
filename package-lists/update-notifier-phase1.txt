@@ -1,0 +1,4 @@
+pacman-contrib
+archlinux-contrib
+htmlq
+libnotify

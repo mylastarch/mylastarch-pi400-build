@@ -1,0 +1,11 @@
+[Desktop Entry]
+Type=Application
+Name=Cairo-Dock
+Comment=MyLastArch application dock
+Exec=/usr/local/bin/mylastarch-cairo-dock-start
+TryExec=/usr/local/bin/mylastarch-cairo-dock-start
+Icon=cairo-dock
+OnlyShowIn=KDE;
+Terminal=false
+StartupNotify=false
+X-KDE-Wayland-Interfaces=org_kde_plasma_window_management

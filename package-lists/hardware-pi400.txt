@@ -1,0 +1,25 @@
+# The minimal image initially keeps the kernel, U-Boot, firmware, and device
+# trees delivered by the official Raspberry Pi AArch64 root filesystem.
+
+# Candidate vendor-kernel stack for the desktop image. Do not install these on
+# top of U-Boot without executing and testing the planned boot-stack migration.
+# linux-rpi
+# linux-rpi-headers
+# firmware-raspberrypi
+# raspberrypi-bootloader
+
+# The linux-firmware meta-package pulls firmware for AMD, Intel, NVIDIA,
+# Radeon, and other hardware that cannot exist in a Pi 400. Its onboard
+# Wi-Fi/Bluetooth controller uses Broadcom firmware.
+linux-firmware-broadcom
+wireless-regdb
+zram-generator
+
+# Hardware and filesystem diagnostics.
+alsa-utils
+bluez
+bluez-utils
+ethtool
+iw
+mmc-utils
+usbutils

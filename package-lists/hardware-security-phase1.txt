@@ -1,0 +1,22 @@
+# Firmware and external security-device support.
+fwupd
+libfido2
+openpgp-card-tools
+pcsclite
+tpm2-tools
+tpm2-tss
+
+# Accessibility and console support from the original profile.
+brltty
+espeakup
+gpm
+terminus-font
+
+# Terminal compatibility and a simple console editor.
+foot-terminfo
+kitty-terminfo
+rxvt-unicode-terminfo
+nano
+
+# bolt, b43-fwcutter, dmidecode, and sof-firmware are excluded because they
+# target Thunderbolt, legacy PCI Wi-Fi, SMBIOS PCs, or x86 audio hardware.

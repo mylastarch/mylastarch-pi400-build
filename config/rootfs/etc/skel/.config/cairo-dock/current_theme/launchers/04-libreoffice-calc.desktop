@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=LibreOffice Calc
+Icon=libreoffice-calc
+Exec=libreoffice --calc
+Container=_MainDock_
+Order=5.25
+StartupWMClass=libreoffice-calc

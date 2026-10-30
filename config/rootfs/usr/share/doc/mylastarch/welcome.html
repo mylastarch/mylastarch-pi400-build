@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Welcome to MyLastArch for Raspberry Pi</title>
+  <style>
+    :root { color-scheme:light dark; --accent:#1793d1; --green:#1d9e75; --card:#fff; --ink:#173042; --muted:#5c6972; --line:#d8e2e8; --code:#edf5f8; --warn:#b45309; }
+    @media (prefers-color-scheme:dark) { :root { --card:#20272c; --ink:#eef6fa; --muted:#bac7ce; --line:#3a4850; --code:#151c20; --warn:#fbbf24; } }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:system-ui,-apple-system,"Noto Sans",sans-serif; color:var(--ink); background:linear-gradient(135deg,#1793d122,#1d9e7518); line-height:1.45; }
+    header { padding:44px 7vw 34px; color:white; background:linear-gradient(120deg,#0d6f9f,#13866a); }
+    header h1 { margin:0 0 8px; font-size:clamp(2rem,5vw,3.5rem); }
+    header p { margin:0; max-width:900px; font-size:1.12rem; opacity:.95; }
+    main { width:min(1180px,92vw); margin:28px auto 60px; }
+    .notice { padding:18px 22px; border-left:5px solid var(--warn); background:var(--card); border-radius:10px; box-shadow:0 8px 24px #00000014; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(290px,1fr)); gap:20px; margin-top:22px; }
+    section { padding:22px; background:var(--card); border:1px solid var(--line); border-radius:14px; box-shadow:0 8px 24px #00000010; }
+    h2 { margin:0 0 12px; color:var(--accent); font-size:1.32rem; }
+    p, ul { margin-top:8px; } ul { padding-left:21px; } li { margin:6px 0; }
+    code { display:block; margin:8px 0; padding:10px 12px; color:var(--ink); background:var(--code); border-radius:7px; user-select:all; }
+    a { color:var(--accent); font-weight:600; }
+    .credential { display:grid; grid-template-columns:auto 1fr; gap:5px 14px; margin:12px 0; }
+    .credential strong { color:var(--accent); }
+    .tag { display:inline-block; margin:0 7px 7px 0; padding:5px 9px; border-radius:999px; color:#075541; background:#dff5ed; font-size:.88rem; font-weight:650; }
+    footer { text-align:center; color:var(--muted); margin-top:28px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to MyLastArch</h1>
+    <p>MyLastArch 2026.11.01 for Raspberry Pi 4 and Pi 400 is based on Arch Linux ARM and includes a configured KDE Plasma desktop.</p>
+  </header>
+  <main>
+    <div class="notice">
+      <strong>Important security step:</strong> this image ships with public default passwords. Change both passwords immediately after your first login.
+    </div>
+    <div class="grid">
+      <section>
+        <h2>Default Login</h2>
+        <div class="credential"><span>Username</span><strong>default</strong><span>User password</span><strong>default</strong><span>Root password</span><strong>root</strong></div>
+        <p>Change the user password:</p><code>passwd</code>
+        <p>Change the root password:</p><code>sudo passwd root</code>
+        <p>Direct root login over SSH is disabled.</p>
+      </section>
+      <section>
+        <h2>First Steps</h2>
+        <ul>
+          <li>Select the correct time zone when System Settings opens.</li>
+          <li>Connect with Plasma's network icon.</li>
+          <li>The root filesystem expands automatically on first boot.</li>
+          <li>Use Ark to open and create archives.</li>
+          <li>Manage the enabled Firewalld service in System Settings.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Safe Updates</h2>
+        <p>MyLastArch follows Arch Linux ARM's rolling repositories. Always perform a complete system upgrade:</p>
+        <code>sudo pacman -Syu</code>
+        <p>Avoid running <code>pacman -Sy</code> by itself. Arch Update is also available from the system tray.</p>
+      </section>
+      <section>
+        <h2>Pi Edition</h2>
+        <span class="tag">AArch64</span><span class="tag">KDE Plasma</span><span class="tag">Ark</span><span class="tag">Firewalld</span><span class="tag">Zram</span>
+        <ul>
+          <li>Designed for Raspberry Pi 4 and Pi 400 hardware.</li>
+          <li>Uses Arch Linux ARM packages and signing keys.</li>
+          <li>Includes NetworkManager, WirePlumber, printing, Bluetooth, and SMB support.</li>
+        </ul>
+      </section>
+      <section>
+        <h2>Useful Links</h2>
+        <ul>
+          <li><a href="https://www.dccwebsite.com/mylastarch.html">MyLastArch website</a></li>
+          <li><a href="https://archlinuxarm.org/">Arch Linux ARM</a></li>
+          <li><a href="https://wiki.archlinux.org/">ArchWiki</a></li>
+          <li><a href="https://github.com/mylastarch">MyLastArch on GitHub</a></li>
+        </ul>
+      </section>
+      <section>
+        <h2>Find This Page Later</h2>
+        <p>Open <strong>Welcome to MyLastArch</strong> from the application menu or the desktop shortcut.</p>
+        <p>This guide opens automatically only on the account's first Plasma login.</p>
+      </section>
+    </div>
+    <footer>MYLASTARCH 2026.11.01 · BASED ON ARCH LINUX ARM · KDE PLASMA</footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "policies": {
+    "Homepage": {
+      "URL": "https://www.dccwebsite.com/",
+      "Locked": false,
+      "StartPage": "homepage"
+    },
+    "ExtensionSettings": {
+      "{ff5b57e3-6998-425d-857b-e89b21a33142}": {
+        "installation_mode": "normal_installed",
+        "install_url": "https://addons.mozilla.org/firefox/downloads/latest/newtab-ext/latest.xpi"
+      }
+    },
+    "DisplayBookmarksToolbar": "always",
+    "DisplayMenuBar": "default-on",
+    "SearchEngines": {
+      "Default": "DuckDuckGo"
+    },
+    "DontCheckDefaultBrowser": true,
+    "OverrideFirstRunPage": "",
+    "OverridePostUpdatePage": ""
+  }
+}

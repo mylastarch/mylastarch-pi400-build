@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=System Settings
+Icon=preferences-system
+Exec=systemsettings
+Container=_MainDock_
+Order=7
+StartupWMClass=systemsettings

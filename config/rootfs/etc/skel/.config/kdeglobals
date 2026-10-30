@@ -1,0 +1,15 @@
+[General]
+AccentColor=80,160,113
+accentColorFromWallpaper=true
+font=Noto Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Noto Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+
+[Icons]
+Theme=Papirus
+
+[KDE]
+ShowDeleteCommand=true
+
+[KFileDialog Settings]
+Show hidden files=true
+Sort directories first=true

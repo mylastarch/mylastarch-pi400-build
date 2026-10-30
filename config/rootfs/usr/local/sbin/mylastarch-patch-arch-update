@@ -1,0 +1,29 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+reboot_check=${ARCH_UPDATE_REBOOT_CHECK:-/usr/share/arch-update/lib/kernel_reboot.sh}
+
+if [[ ! -f $reboot_check ]]; then
+    printf 'MyLastArch: Arch-Update reboot check is not installed; nothing to patch.\n'
+    exit 0
+fi
+
+if grep -Fqx 'kernel_modules="/usr/lib/modules/$(uname -r)"' "$reboot_check" &&
+        grep -Fqx 'if ! [ -d "${kernel_modules}" ]; then' "$reboot_check"; then
+    printf 'MyLastArch: Arch-Update AArch64 reboot check is already applied.\n'
+    exit 0
+fi
+
+if ! grep -Fqx 'kernel_file="/usr/lib/modules/$(uname -r)/vmlinuz"' "$reboot_check" ||
+        ! grep -Fqx 'if ! [ -f "${kernel_file}" ]; then' "$reboot_check"; then
+    printf '%s\n' \
+        'MyLastArch: Arch-Update changed its reboot detector; compatibility patch skipped.' >&2
+    exit 0
+fi
+
+sed -i \
+    -e 's|^kernel_file="/usr/lib/modules/$(uname -r)/vmlinuz"$|kernel_modules="/usr/lib/modules/$(uname -r)"|' \
+    -e 's|^if ! \[ -f "${kernel_file}" \]; then$|if ! [ -d "${kernel_modules}" ]; then|' \
+    "$reboot_check"
+
+printf 'MyLastArch: patched Arch-Update reboot detection for linux-aarch64.\n'

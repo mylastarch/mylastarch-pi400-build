@@ -1,0 +1,27 @@
+# Generated inventory may contain usernames, hostnames, and local paths.
+inventory/source/
+
+# Development-machine and hardware-test reports may contain private network
+# addresses, hostnames, usernames, and other machine-specific details.
+reports/
+pi400-*.txt
+
+# Build and image output
+build/
+output/
+*.img
+*.iso
+*.tar
+*.tar.gz
+*.zst
+*.sha256
+
+# Editor and temporary files
+*~
+*.swp
+.DS_Store
+__pycache__/
+*.py[cod]
+
+# Project-specific SSH credentials used for Pi test automation
+secrets/

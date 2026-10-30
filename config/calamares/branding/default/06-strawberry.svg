@@ -1,0 +1,59 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#D4537E"/>
+  <rect x="0" y="0" width="6" height="382" fill="#D4537E"/>
+  <g transform="translate(52,28)">
+    <ellipse cx="34" cy="10" rx="8" ry="5" fill="#3B6D11" transform="rotate(-30 34 10)"/>
+    <ellipse cx="44" cy="8" rx="8" ry="5" fill="#3B6D11" transform="rotate(10 44 8)"/>
+    <ellipse cx="38" cy="6" rx="6" ry="4" fill="#27500A"/>
+    <path d="M20,18 Q14,30 20,44 Q28,58 38,60 Q48,58 56,44 Q62,30 56,18 Q48,12 38,14 Q28,12 20,18 Z" fill="#D4537E"/>
+    <ellipse cx="30" cy="30" rx="2" ry="2.5" fill="#FBEAF0" transform="rotate(-15 30 30)"/>
+    <ellipse cx="46" cy="30" rx="2" ry="2.5" fill="#FBEAF0" transform="rotate(15 46 30)"/>
+    <ellipse cx="38" cy="40" rx="2" ry="2.5" fill="#FBEAF0"/>
+    <ellipse cx="28" cy="42" rx="1.5" ry="2" fill="#FBEAF0" transform="rotate(-10 28 42)"/>
+    <ellipse cx="48" cy="42" rx="1.5" ry="2" fill="#FBEAF0" transform="rotate(10 48 42)"/>
+  </g>
+  <rect x="126" y="28" width="130" height="24" rx="12" fill="#FBEAF0" stroke="#ED93B1" stroke-width="0.75"/>
+  <text x="191" y="45" font-family="sans-serif" font-size="12" fill="#993556" text-anchor="middle">Music Player</text>
+  <text x="126" y="80" font-family="sans-serif" font-size="36" font-weight="700" fill="#993556" letter-spacing="-1">Strawberry</text>
+  <text x="52" y="108" font-family="sans-serif" font-size="14" fill="#888780">A music player built for audiophiles and everyday listeners alike.</text>
+  <line x1="52" y1="124" x2="628" y2="124" stroke="#D3D1C7" stroke-width="0.75"/>
+  <rect x="52" y="140" width="136" height="88" rx="8" fill="#FBEAF0" stroke="#F4C0D1" stroke-width="0.75"/>
+  <text x="70" y="164" font-family="sans-serif" font-size="13" font-weight="500" fill="#72243E">Audio Quality</text>
+  <text x="70" y="182" font-family="sans-serif" font-size="11" fill="#993556">Lossless playback.</text>
+  <text x="70" y="198" font-family="sans-serif" font-size="11" fill="#993556">FLAC, WAV, ALAC,</text>
+  <text x="70" y="214" font-family="sans-serif" font-size="11" fill="#993556">MP3, OGG and more.</text>
+  <rect x="200" y="140" width="136" height="88" rx="8" fill="#FBEAF0" stroke="#F4C0D1" stroke-width="0.75"/>
+  <text x="218" y="164" font-family="sans-serif" font-size="13" font-weight="500" fill="#72243E">Library Manager</text>
+  <text x="218" y="182" font-family="sans-serif" font-size="11" fill="#993556">Organise your entire</text>
+  <text x="218" y="198" font-family="sans-serif" font-size="11" fill="#993556">music collection with</text>
+  <text x="218" y="214" font-family="sans-serif" font-size="11" fill="#993556">tags and artwork.</text>
+  <rect x="348" y="140" width="136" height="88" rx="8" fill="#FBEAF0" stroke="#F4C0D1" stroke-width="0.75"/>
+  <text x="366" y="164" font-family="sans-serif" font-size="13" font-weight="500" fill="#72243E">Streaming</text>
+  <text x="366" y="182" font-family="sans-serif" font-size="11" fill="#993556">Tidal, Spotify,</text>
+  <text x="366" y="198" font-family="sans-serif" font-size="11" fill="#993556">Subsonic and more</text>
+  <text x="366" y="214" font-family="sans-serif" font-size="11" fill="#993556">built right in.</text>
+  <rect x="496" y="140" width="132" height="88" rx="8" fill="#FBEAF0" stroke="#F4C0D1" stroke-width="0.75"/>
+  <text x="514" y="164" font-family="sans-serif" font-size="13" font-weight="500" fill="#72243E">Equalizer</text>
+  <text x="514" y="182" font-family="sans-serif" font-size="11" fill="#993556">Built-in 10-band EQ</text>
+  <text x="514" y="198" font-family="sans-serif" font-size="11" fill="#993556">to shape your sound</text>
+  <text x="514" y="214" font-family="sans-serif" font-size="11" fill="#993556">exactly as you like.</text>
+  <rect x="52" y="240" width="136" height="76" rx="8" fill="#FBEAF0" stroke="#F4C0D1" stroke-width="0.75"/>
+  <text x="70" y="264" font-family="sans-serif" font-size="13" font-weight="500" fill="#72243E">Last.fm Scrobbling</text>
+  <text x="70" y="282" font-family="sans-serif" font-size="11" fill="#993556">Track your listening</text>
+  <text x="70" y="298" font-family="sans-serif" font-size="11" fill="#993556">history automatically.</text>
+  <rect x="200" y="240" width="136" height="76" rx="8" fill="#FBEAF0" stroke="#F4C0D1" stroke-width="0.75"/>
+  <text x="218" y="264" font-family="sans-serif" font-size="13" font-weight="500" fill="#72243E">Smart Playlists</text>
+  <text x="218" y="282" font-family="sans-serif" font-size="11" fill="#993556">Auto-generate lists</text>
+  <text x="218" y="298" font-family="sans-serif" font-size="11" fill="#993556">by rules and filters.</text>
+  <rect x="348" y="240" width="136" height="76" rx="8" fill="#FBEAF0" stroke="#F4C0D1" stroke-width="0.75"/>
+  <text x="366" y="264" font-family="sans-serif" font-size="13" font-weight="500" fill="#72243E">Album Art</text>
+  <text x="366" y="282" font-family="sans-serif" font-size="11" fill="#993556">Auto-fetch covers</text>
+  <text x="366" y="298" font-family="sans-serif" font-size="11" fill="#993556">from online sources.</text>
+  <rect x="496" y="240" width="132" height="76" rx="8" fill="#FBEAF0" stroke="#F4C0D1" stroke-width="0.75"/>
+  <text x="514" y="264" font-family="sans-serif" font-size="13" font-weight="500" fill="#72243E">KDE Integration</text>
+  <text x="514" y="282" font-family="sans-serif" font-size="11" fill="#993556">Media keys, taskbar</text>
+  <text x="514" y="298" font-family="sans-serif" font-size="11" fill="#993556">and MPRIS support.</text>
+  <rect x="0" y="366" width="680" height="16" fill="#D4537E" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#993556" text-anchor="middle" letter-spacing="1">MYLASTARCH 1.0.0  ·  INCLUDED SOFTWARE</text>
+</svg>

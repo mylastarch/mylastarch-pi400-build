@@ -1,0 +1,41 @@
+QWidget {
+    font: 16px;
+}
+
+#mainText {
+    font: bold 16px;
+}
+
+#sidebarMenuApp {
+    padding: 3px;
+    background-color: #292f34;
+}
+
+QDialogButtonBox {
+    dialogbuttonbox-buttons-have-icons: 0;
+}
+
+QTreeView {
+    show-decoration-selected: 0;
+}
+
+QTreeView::item {
+    padding: 2px;
+}
+
+QHeaderView::section {
+    font: 16px;
+}
+
+#debugButton,
+#aboutButton {
+    background-color: transparent;
+    font: 12px;
+    color: #edecf0;
+    height: 32px;
+    border: none;
+}
+
+#debugButton:hover {
+    color: #ff7f7f;
+}

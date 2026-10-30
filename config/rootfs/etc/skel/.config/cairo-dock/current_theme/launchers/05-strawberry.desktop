@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Strawberry
+Icon=strawberry
+Exec=strawberry
+Container=_MainDock_
+Order=5
+StartupWMClass=strawberry

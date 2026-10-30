@@ -1,0 +1,11 @@
+[Trigger]
+Operation = Install
+Operation = Upgrade
+Type = Package
+Target = arch-update
+
+[Action]
+Description = Applying MyLastArch linux-aarch64 reboot detection compatibility...
+When = PostTransaction
+Exec = /usr/local/sbin/mylastarch-patch-arch-update
+

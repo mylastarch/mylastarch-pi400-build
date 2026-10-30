@@ -1,0 +1,44 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#18A303"/>
+  <rect x="0" y="0" width="6" height="382" fill="#18A303"/>
+  <g transform="translate(52,30)">
+    <polygon points="30,8 56,8 56,46 30,46" fill="#18A303"/>
+    <polygon points="16,0 42,0 56,8 30,8" fill="#25C403"/>
+    <polygon points="56,8 70,16 70,54 56,46" fill="#0E7A02"/>
+    <line x1="36" y1="20" x2="50" y2="20" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="36" y1="28" x2="50" y2="28" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="36" y1="36" x2="44" y2="36" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <rect x="140" y="28" width="148" height="24" rx="12" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.75"/>
+  <text x="214" y="45" font-family="sans-serif" font-size="12" fill="#185FA5" text-anchor="middle">Office Suite</text>
+  <text x="140" y="82" font-family="sans-serif" font-size="32" font-weight="700" fill="#0E7A02" letter-spacing="-1">LibreOffice Suite</text>
+  <text x="52" y="110" font-family="sans-serif" font-size="14" fill="#888780">A complete, free, and open-source office suite for every task.</text>
+  <line x1="52" y1="126" x2="628" y2="126" stroke="#D3D1C7" stroke-width="0.75"/>
+  <rect x="52" y="142" width="178" height="82" rx="8" fill="#EAF3DE" stroke="#C0DD97" stroke-width="0.75"/>
+  <text x="72" y="166" font-family="sans-serif" font-size="14" font-weight="500" fill="#173404">Writer</text>
+  <text x="72" y="185" font-family="sans-serif" font-size="11" fill="#3B6D11">Full-featured word processor.</text>
+  <text x="72" y="201" font-family="sans-serif" font-size="11" fill="#3B6D11">Compatible with .docx files.</text>
+  <rect x="244" y="142" width="178" height="82" rx="8" fill="#EAF3DE" stroke="#C0DD97" stroke-width="0.75"/>
+  <text x="264" y="166" font-family="sans-serif" font-size="14" font-weight="500" fill="#173404">Calc</text>
+  <text x="264" y="185" font-family="sans-serif" font-size="11" fill="#3B6D11">Powerful spreadsheet tool.</text>
+  <text x="264" y="201" font-family="sans-serif" font-size="11" fill="#3B6D11">Compatible with .xlsx files.</text>
+  <rect x="436" y="142" width="192" height="82" rx="8" fill="#EAF3DE" stroke="#C0DD97" stroke-width="0.75"/>
+  <text x="456" y="166" font-family="sans-serif" font-size="14" font-weight="500" fill="#173404">Impress</text>
+  <text x="456" y="185" font-family="sans-serif" font-size="11" fill="#3B6D11">Presentation software.</text>
+  <text x="456" y="201" font-family="sans-serif" font-size="11" fill="#3B6D11">Compatible with .pptx files.</text>
+  <rect x="52" y="238" width="178" height="82" rx="8" fill="#EAF3DE" stroke="#C0DD97" stroke-width="0.75"/>
+  <text x="72" y="262" font-family="sans-serif" font-size="14" font-weight="500" fill="#173404">Draw</text>
+  <text x="72" y="281" font-family="sans-serif" font-size="11" fill="#3B6D11">Vector graphics and</text>
+  <text x="72" y="297" font-family="sans-serif" font-size="11" fill="#3B6D11">diagram editor.</text>
+  <rect x="244" y="238" width="178" height="82" rx="8" fill="#EAF3DE" stroke="#C0DD97" stroke-width="0.75"/>
+  <text x="264" y="262" font-family="sans-serif" font-size="14" font-weight="500" fill="#173404">Base</text>
+  <text x="264" y="281" font-family="sans-serif" font-size="11" fill="#3B6D11">Database front-end.</text>
+  <text x="264" y="297" font-family="sans-serif" font-size="11" fill="#3B6D11">Create and manage DBs.</text>
+  <rect x="436" y="238" width="192" height="82" rx="8" fill="#EAF3DE" stroke="#C0DD97" stroke-width="0.75"/>
+  <text x="456" y="262" font-family="sans-serif" font-size="14" font-weight="500" fill="#173404">Math</text>
+  <text x="456" y="281" font-family="sans-serif" font-size="11" fill="#3B6D11">Formula and equation</text>
+  <text x="456" y="297" font-family="sans-serif" font-size="11" fill="#3B6D11">editor for documents.</text>
+  <rect x="0" y="366" width="680" height="16" fill="#18A303" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#0E7A02" text-anchor="middle" letter-spacing="1">MYLASTARCH 1.0.0  ·  INCLUDED SOFTWARE</text>
+</svg>

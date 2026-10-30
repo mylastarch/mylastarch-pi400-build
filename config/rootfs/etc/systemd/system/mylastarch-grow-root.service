@@ -1,0 +1,11 @@
+[Unit]
+Description=Expand the mylastarch root filesystem to fill its device
+After=local-fs.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/local/sbin/mylastarch-grow-root
+
+[Install]
+WantedBy=multi-user.target
+

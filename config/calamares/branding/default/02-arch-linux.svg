@@ -1,0 +1,48 @@
+<svg width="1920" height="1080" viewBox="0 0 680 382" xmlns="http://www.w3.org/2000/svg">
+  <rect width="680" height="382" fill="#F8F9FC"/>
+  <rect x="0" y="0" width="680" height="4" fill="#1793D1"/>
+  <rect x="0" y="0" width="6" height="382" fill="#1793D1"/>
+  <g transform="translate(52,38)">
+    <path d="M38 0 L14 52 L22 52 L38 16 L54 52 L62 52 Z" fill="#1793D1"/>
+    <path d="M38 20 L26 52 L38 46 L50 52 Z" fill="#F8F9FC"/>
+  </g>
+  <rect x="122" y="28" width="130" height="24" rx="12" fill="#E6F1FB" stroke="#85B7EB" stroke-width="0.75"/>
+  <text x="187" y="45" font-family="sans-serif" font-size="12" fill="#185FA5" text-anchor="middle">Base Distribution</text>
+  <text x="52" y="120" font-family="sans-serif" font-size="38" font-weight="700" fill="#1793D1" letter-spacing="-1">Built on Arch Linux</text>
+  <text x="52" y="146" font-family="sans-serif" font-size="15" fill="#888780">The power of Arch, made accessible. Rolling release. Always up to date.</text>
+  <line x1="52" y1="162" x2="628" y2="162" stroke="#D3D1C7" stroke-width="0.75"/>
+  <rect x="52" y="176" width="136" height="82" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="70" y="200" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Rolling Release</text>
+  <text x="70" y="218" font-family="sans-serif" font-size="11" fill="#185FA5">Always the latest</text>
+  <text x="70" y="234" font-family="sans-serif" font-size="11" fill="#185FA5">software. </text>
+  <rect x="200" y="176" width="136" height="82" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="218" y="200" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Pacman</text>
+  <text x="218" y="218" font-family="sans-serif" font-size="11" fill="#185FA5">Fast, powerful package</text>
+  <text x="218" y="234" font-family="sans-serif" font-size="11" fill="#185FA5">manager built in.</text>
+  <rect x="348" y="176" width="136" height="82" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="366" y="200" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">AUR Access</text>
+  <text x="366" y="218" font-family="sans-serif" font-size="11" fill="#185FA5">90,000+ community</text>
+  <text x="366" y="234" font-family="sans-serif" font-size="11" fill="#185FA5">packages available.</text>
+  <rect x="496" y="176" width="132" height="82" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="514" y="200" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Bleeding Edge</text>
+  <text x="514" y="218" font-family="sans-serif" font-size="11" fill="#185FA5">Latest kernels and</text>
+  <text x="514" y="234" font-family="sans-serif" font-size="11" fill="#185FA5">drivers always ready.</text>
+  <rect x="52" y="270" width="136" height="76" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="70" y="294" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Minimal Base</text>
+  <text x="70" y="312" font-family="sans-serif" font-size="11" fill="#185FA5">Only what you need.</text>
+  <text x="70" y="328" font-family="sans-serif" font-size="11" fill="#185FA5">No bloat.</text>
+  <rect x="200" y="270" width="136" height="76" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="218" y="294" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Arch Wiki</text>
+  <text x="218" y="312" font-family="sans-serif" font-size="11" fill="#185FA5">Best Linux docs on</text>
+  <text x="218" y="328" font-family="sans-serif" font-size="11" fill="#185FA5">the internet.</text>
+  <rect x="348" y="270" width="136" height="76" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="366" y="294" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">x86-64 Native</text>
+  <text x="366" y="312" font-family="sans-serif" font-size="11" fill="#185FA5">Optimised for modern</text>
+  <text x="366" y="328" font-family="sans-serif" font-size="11" fill="#185FA5">64-bit hardware.</text>
+  <rect x="496" y="270" width="132" height="76" rx="8" fill="#E6F1FB" stroke="#B5D4F4" stroke-width="0.75"/>
+  <text x="514" y="294" font-family="sans-serif" font-size="13" font-weight="500" fill="#0C447C">Community</text>
+  <text x="514" y="312" font-family="sans-serif" font-size="11" fill="#185FA5">Massive global Arch</text>
+  <text x="514" y="328" font-family="sans-serif" font-size="11" fill="#185FA5">Linux community.</text>
+  <rect x="0" y="366" width="680" height="16" fill="#1793D1" opacity="0.12"/>
+  <text x="340" y="378" font-family="sans-serif" font-size="10" fill="#185FA5" text-anchor="middle" letter-spacing="1">MYLASTARCH 1.0.0  ·  ARCH LINUX BASE</text>
+</svg>

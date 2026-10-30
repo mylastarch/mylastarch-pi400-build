@@ -1,0 +1,17 @@
+# Desktop integration carried over from the original mylastarch profile.
+adw-gtk-theme
+appmenu-gtk-module
+cairo-dock-plug-ins
+guvcview
+gvfs
+gvfs-smb
+kio-admin
+lsb-release
+pipewire-zeroconf
+qt5-tools
+qt6-tools
+xdg-user-dirs-gtk
+
+# Plasma provides its own screen locking. Installing xscreensaver alongside it
+# can create competing idle and lock-screen behavior, so it is intentionally
+# excluded.

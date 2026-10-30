@@ -1,0 +1,25 @@
+# Storage, filesystem, and recovery tools compatible with the Pi 400.
+bcachefs-tools
+cryptsetup
+ddrescue
+e2fsprogs
+fatresize
+fsarchiver
+gpart
+hdparm
+mdadm
+mtools
+nbd
+nilfs-utils
+nvme-cli
+partclone
+parted
+partimage
+pv
+sdparm
+sg3_utils
+squashfs-tools
+udftools
+
+# GRUB, Syslinux, rEFInd, EFI tools, OS Prober, and x86 microcode are omitted;
+# this image boots the Pi through its Raspberry Pi/U-Boot boot stack.

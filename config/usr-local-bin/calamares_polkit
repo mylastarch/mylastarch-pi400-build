@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+
+if command -v pkexec >/dev/null 2>&1; then
+    if [ -n "${DISPLAY:-}" ] &&
+        command -v xhost >/dev/null 2>&1 &&
+        ! sudo -n env \
+            DISPLAY="$DISPLAY" \
+            XAUTHORITY="${XAUTHORITY:-}" \
+            xhost >/dev/null 2>&1; then
+        xhost +SI:localuser:root >/dev/null 2>&1
+        trap 'xhost -SI:localuser:root >/dev/null 2>&1' EXIT
+
+        pkexec --disable-internal-agent env \
+            DISPLAY="$DISPLAY" \
+            XAUTHORITY="${XAUTHORITY:-}" \
+            /usr/bin/calamares "$@"
+    else
+        pkexec --disable-internal-agent /usr/bin/calamares "$@"
+    fi
+else
+    /usr/bin/calamares "$@"
+fi

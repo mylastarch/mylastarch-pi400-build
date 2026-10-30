@@ -1,0 +1,35 @@
+# Minimal Plasma desktop milestone. Audit this list on the Pi before install.
+plasma-meta
+plasma-login-manager
+xorg-xwayland
+
+# Core applications
+dolphin
+kate
+kio-extras
+konsole
+
+# Raspberry Pi graphics and validation
+mesa
+mesa-utils
+vulkan-broadcom
+
+# Audio
+alsa-utils
+pavucontrol
+pipewire
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+wireplumber
+
+# Bluetooth
+bluez
+bluez-utils
+
+# Fonts and desktop integration
+libayatana-appindicator
+noto-fonts
+papirus-icon-theme
+vimix-cursors
+xdg-user-dirs

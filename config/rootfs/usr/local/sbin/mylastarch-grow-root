@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+root_source=$(findmnt --noheadings --output SOURCE /)
+root_device=$(readlink -f -- "$root_source")
+parent_name=$(lsblk --noheadings --output PKNAME "$root_device" | xargs)
+partition_number=$(lsblk --noheadings --output PARTN "$root_device" | xargs)
+
+if [[ -z "$parent_name" || -z "$partition_number" ]]; then
+  printf 'Unable to identify the root disk and partition from %s\n' "$root_device" >&2
+  exit 1
+fi
+
+root_disk="/dev/$parent_name"
+
+printf 'Growing root partition %s on %s\n' "$partition_number" "$root_disk"
+printf ', +\n' | sfdisk --no-reread --force -N "$partition_number" "$root_disk"
+partx --update --nr "$partition_number" "$root_disk"
+
+case $(findmnt --noheadings --output FSTYPE /) in
+  ext4)
+    resize2fs "$root_device"
+    ;;
+  *)
+    printf 'Unsupported root filesystem; expected ext4.\n' >&2
+    exit 1
+    ;;
+esac
+
+systemctl disable mylastarch-grow-root.service
+printf 'Root filesystem expansion complete.\n'
